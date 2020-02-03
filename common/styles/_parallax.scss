@@ -1,0 +1,8 @@
+.parallax-banner {
+  display: flex;
+  height: 100%;
+
+  & div {
+    z-index: 1;
+  }
+}

@@ -1,0 +1,18 @@
+.tilt {
+  .card {
+    .person-card-overlay {
+      opacity: 0.3;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      z-index: 500;
+      transition: opacity 0.5s;
+
+      &:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+    }
+  }
+}
+
